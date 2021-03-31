@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(240, 240, 250);
+}
+nav{
+    height: 15%;
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 0%;
+    top: 4%;
+    font-size: 19px;
+}
+.menu li{
+    margin-right: 1rem;
+    border: 1px solid black;
+}
+.menu a:hover{
+    color: red;
+}
+main{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    background-color: white;
+    height: 500px;
+}
